@@ -189,6 +189,26 @@ footer {
   color: var(--secondary);
 }
 
+/* X (Twitter) icon styles */
+.fa-x-twitter {
+    font-weight: 600;
+    position: relative;
+
+.fa-x-twitter::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    border-radius: 50%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+.fa-x-twitter::before {
+    color: white;
+}
+
 /* ===== RESPONSIVE ADJUSTMENTS ===== */
 @media (max-width: 768px) {
   .about-content {
